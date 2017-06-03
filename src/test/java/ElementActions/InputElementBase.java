@@ -1,5 +1,5 @@
 /*
- * Base class for inputable elements, can suitable for dropdowns, inputs, datepickers.
+ * Base class for input elements, can suitable for dropdowns, inputs, datepickers.
  */
 package ElementActions;
 
