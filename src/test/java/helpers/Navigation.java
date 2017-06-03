@@ -14,7 +14,7 @@ public class Navigation {
          _driver = driver;
     }
     
-    public void GoToRelatedUrl(String baseUrl){
+    public void GoToUrl(String baseUrl){
         _driver.get(baseUrl);
     }
 }

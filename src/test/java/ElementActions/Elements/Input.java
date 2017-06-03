@@ -6,10 +6,7 @@ package ElementActions.Elements;
 import ElementActions.InputElementBase;
 import org.openqa.selenium.WebDriver;
 
-/**
- *
- * @author KUSEDU
- */
+
 public class Input extends InputElementBase {
     
     public Input(WebDriver driver) {
