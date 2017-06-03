@@ -10,10 +10,7 @@ import step_definitions_as_page_objects.Hooks;
 
 import java.lang.reflect.InvocationTargetException;
 
-/**
- *
- * @author KUSEDU
- */
+
 public class StateHolder {
     
     public static Object CreateObject(Class myClass) throws NoSuchMethodException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {

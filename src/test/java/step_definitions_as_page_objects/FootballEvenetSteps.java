@@ -15,6 +15,8 @@ public class FootballEvenetSteps extends StepBase{
         Input().Type(FootballEventLocators.BetInput, bet.toString());
     }
 
+
+    // Formulas should be tested on backend level with unit tests, UI tests should test functionality, that price is changed.
     @Then("^Price depends on odds calculated (.*)$")
     public void price_calculated(Double bet) throws Throwable {
         String value = Span().GetText(FootballEventLocators.OddsTxt);

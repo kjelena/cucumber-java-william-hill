@@ -9,10 +9,7 @@ import ElementActions.Elements.Input;
 import ElementActions.Elements.Span;
 import java.lang.reflect.InvocationTargetException;
 
-/**
- *
- * @author KUSEDU
- */
+
 public class StepBase extends StateHolder {
     
     public static Button Button() throws NoSuchMethodException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException{
