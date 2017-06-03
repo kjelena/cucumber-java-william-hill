@@ -1,20 +1,10 @@
 package step_definitions_as_page_objects;
 
-import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.junit.Cucumber;
 import helpers.StepBase;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 import locators.FootballEventLocators;
-import org.junit.runner.RunWith;
 import org.testng.Assert;
-
-import static java.lang.Thread.sleep;
 
 
 // Scope for current step definition is not configured, need more time. We can implement, that only steps from this class will be initialized for specific feature.

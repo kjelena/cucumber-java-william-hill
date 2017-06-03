@@ -7,10 +7,6 @@ package helpers;
 
 import org.openqa.selenium.WebDriver;
 
-/**
- *
- * @author KUSEDU
- */
 public class Navigation {
     public WebDriver  _driver;
     

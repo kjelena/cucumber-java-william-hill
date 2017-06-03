@@ -1,23 +1,8 @@
 package step_definitions_as_page_objects;
 
-import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Given;
-
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
-
-import locators.WilliamHillStartPageLocators;
-import locators.FootballHighlitsLocators;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-import cucumber.api.junit.Cucumber;
 import helpers.StepBase;
-import org.junit.runner.RunWith;
+import locators.WilliamHillStartPageLocators;
 
 
 

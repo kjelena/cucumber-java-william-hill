@@ -8,9 +8,9 @@ Feature: Check that bet working correct
     When I enter bet <bet>
     Then Price depends on odds calculated <bet>
 
-    # You can add more bets in example, which you want, in this case better to use example that testData
+    # You can add more bets in "Examples", which you want, in this case better to use example that testData
     # Test data class was not implemented because for such test from my perspective is not required
     # If i will have some forms (login, register) then i will implement access to data using MVC pattern, through models.
     Examples:
-        | bet |
-        | 0.05   |
+        | bet  |
+        | 0.05 |

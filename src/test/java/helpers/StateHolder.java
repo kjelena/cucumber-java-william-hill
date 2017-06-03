@@ -5,10 +5,10 @@
  */
 package helpers;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 import org.openqa.selenium.WebDriver;
 import step_definitions_as_page_objects.Hooks;
+
+import java.lang.reflect.InvocationTargetException;
 
 /**
  *
